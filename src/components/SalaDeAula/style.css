@@ -1,0 +1,84 @@
+#sala-de-aula iframe {
+    height: 80vh;
+}
+
+progress {
+    width: 100%;
+    height: 15px;
+    border: 1px solid #ccc;
+}
+
+progress::-webkit-progress-value {
+    background-color: #4caf50;
+    transition: width 0.5s ease;
+}
+
+progress::-moz-progress-bar {
+    background-color: #4caf50;
+    transition: width 0.5s ease;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #e0e0e0;
+}
+
+progress::-moz-progress-bar {
+    background-color: #e0e0e0;
+}
+
+.material-symbols-outlined:hover {
+    cursor: pointer;
+}
+
+li span:hover {
+    cursor: pointer;
+}
+
+.concluido {
+    color: #ffffff;
+    background-color: #4caf50;
+    border-radius: 100px;
+}
+
+.aula-nome {
+    width: 100%;
+    padding: 0 5px;
+    text-align: left;
+}
+
+
+/* Estilos para dispositivos móveis pequenos (320px) */
+@media (min-width: 320px) {
+
+    /* Estilos aqui */
+
+}
+
+/* Estilos para dispositivos móveis de tela um pouco maior (480px) */
+@media (max-width: 480px) {
+
+    /* Estilos aqui */
+
+}
+
+/* Estilos para tablets e dispositivos móveis com tela maior (768px) */
+@media (min-width: 768px) {
+
+    /* Estilos aqui */
+
+}
+
+/* Estilos para laptops e monitores menores (992px) */
+@media (min-width: 992px) {
+
+    /* Estilos aqui */
+
+
+}
+
+/* Estilos para monitores maiores (1200px) */
+@media (min-width: 1200px) {
+
+    /* Estilos aqui */
+
+}

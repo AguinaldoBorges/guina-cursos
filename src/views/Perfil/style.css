@@ -1,0 +1,58 @@
+#perfil {
+    margin: 0;
+    padding: 0;
+}
+
+#perfil-body {
+    min-height: 100vh;
+    background-color: #c5bbbc;
+}
+
+#perfil-image {
+    min-height: 100vh;
+    background: url('../../assets/login-bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/* Estilos para dispositivos móveis pequenos (320px) */
+@media (min-width: 320px) {
+
+    /* Estilos aqui */
+    #perfil-image {
+        display: none;
+    }
+}
+
+/* Estilos para dispositivos móveis de tela um pouco maior (480px) */
+@media (max-width: 480px) {
+
+    /* Estilos aqui */
+
+}
+
+/* Estilos para tablets e dispositivos móveis com tela maior (768px) */
+@media (min-width: 768px) {
+
+    /* Estilos aqui */
+    #perfil-image {
+        display: block;
+    }
+}
+
+/* Estilos para laptops e monitores menores (992px) */
+@media (min-width: 992px) {
+
+    /* Estilos aqui */
+
+
+}
+
+/* Estilos para monitores maiores (1200px) */
+@media (min-width: 1200px) {
+
+    /* Estilos aqui */
+
+}

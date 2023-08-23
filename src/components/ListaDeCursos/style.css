@@ -1,0 +1,43 @@
+#novo-curso-imagem {
+    height: 200px;
+    width: 100%;
+
+    object-fit: cover;
+    /* imagem preenche todo o conteudo do container */
+}
+
+/* Estilos para dispositivos móveis pequenos (320px) */
+@media (min-width: 320px) {
+
+    /* Estilos aqui */
+
+}
+
+/* Estilos para dispositivos móveis de tela um pouco maior (480px) */
+@media (max-width: 480px) {
+
+    /* Estilos aqui */
+
+}
+
+/* Estilos para tablets e dispositivos móveis com tela maior (768px) */
+@media (min-width: 768px) {
+
+    /* Estilos aqui */
+
+}
+
+/* Estilos para laptops e monitores menores (992px) */
+@media (min-width: 992px) {
+
+    /* Estilos aqui */
+
+
+}
+
+/* Estilos para monitores maiores (1200px) */
+@media (min-width: 1200px) {
+
+    /* Estilos aqui */
+
+}

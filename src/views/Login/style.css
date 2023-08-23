@@ -1,0 +1,66 @@
+#login {
+    background: url('../../assets/login-bg.jpg');
+    background-size: cover;
+    background-color: #ffffffc5;
+    background-blend-mode: overlay;
+}
+
+.barraLateral {
+    background-color: #252525;
+    background-image: linear-gradient(to top, transparent, #c42626 100%);
+    /* Background gradiente na imagem */
+    height: 100vh;
+    width: 100px;
+}
+
+#login-main {
+    flex-wrap: wrap;
+    position: relative;
+    top: -50px;
+}
+
+#login-main h1 {
+    position: relative;
+    top: 50px;
+    font-weight: 700;
+    font-size: 70px;
+    color: #c42626;
+}
+
+/* Estilos para dispositivos móveis pequenos (320px) */
+@media (min-width: 320px) {
+
+    /* Estilos aqui */
+
+}
+
+/* Estilos para dispositivos móveis de tela um pouco maior (480px) */
+@media (max-width: 480px) {
+
+    /* Estilos aqui */
+    #login-main h1 {
+        font-size: 60px;
+    }
+}
+
+/* Estilos para tablets e dispositivos móveis com tela maior (768px) */
+@media (min-width: 768px) {
+
+    /* Estilos aqui */
+
+}
+
+/* Estilos para laptops e monitores menores (992px) */
+@media (min-width: 992px) {
+
+    /* Estilos aqui */
+
+
+}
+
+/* Estilos para monitores maiores (1200px) */
+@media (min-width: 1200px) {
+
+    /* Estilos aqui */
+
+}

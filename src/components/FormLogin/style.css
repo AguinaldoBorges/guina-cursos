@@ -1,0 +1,22 @@
+#form-login {
+    border: solid 1px #DEE2E6;
+    padding: 30px 70px;
+    padding-left: 50px;
+    justify-content: center;
+    background-color: #afaeaec5;
+    border-radius: 10px;
+}
+
+#form-login a {
+    text-decoration: none;
+    color: #c42626;
+}
+
+#form-login button {
+    background-color: #c42626;
+    border: none;
+}
+
+#emailHelp {
+    color: #c42626;
+}
